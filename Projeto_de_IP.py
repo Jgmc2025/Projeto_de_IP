@@ -38,7 +38,7 @@ class Jogo:
              self.settings.w = 0
     def movimento(self,event):
         if event.key == pygame.K_s:
-            self.ship.image = pygame.image.load("C:/Users/joaoc/OneDrive/Área de Trabalho/projetoIP/1000102277.png")
+            self.ship.image = pygame.image.load("1000102277.png")
             self.ship.image = pygame.transform.scale(self.ship.image,(50,60))
             self.settings.right = 0
             self.settings.left = 0
@@ -47,7 +47,7 @@ class Jogo:
             self.settings.d = 0
             self.settings.a = 0
         elif event.key == pygame.K_w:
-            self.ship.image = pygame.image.load("C:/Users/joaoc/OneDrive/Área de Trabalho/projetoIP/1000102277.png")
+            self.ship.image = pygame.image.load("1000102277.png")
             self.ship.image = pygame.transform.scale(self.ship.image,(50,60))
             self.settings.right = 0
             self.settings.left = 0
@@ -56,7 +56,7 @@ class Jogo:
             self.settings.d = 0
             self.settings.a = 0
         elif event.key == pygame.K_d:
-            self.ship.image = pygame.image.load("C:/Users/joaoc/OneDrive/Área de Trabalho/projetoIP/1000102277.png")
+            self.ship.image = pygame.image.load("1000102277.png")
             self.ship.image = pygame.transform.scale(self.ship.image,(50,60))
             self.ship.image = pygame.transform.rotate(self.ship.image, -30)
             self.settings.right = 0.4
@@ -66,7 +66,7 @@ class Jogo:
             self.settings.s = 0
             self.settings.a = 0
         elif event.key == pygame.K_a:
-            self.ship.image = pygame.image.load("C:/Users/joaoc/OneDrive/Área de Trabalho/projetoIP/1000102277.png")
+            self.ship.image = pygame.image.load("1000102277.png")
             self.ship.image = pygame.transform.scale(self.ship.image,(50,60))
             self.ship.image = pygame.transform.rotate(self.ship.image, 30)
             self.settings.left = 0.4
