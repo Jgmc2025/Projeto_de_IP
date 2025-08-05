@@ -8,4 +8,5 @@ class Settings:
         self.a = 0
         self.d = 0
         self.s = 0
+        self.vida_inimigo = 20
 
