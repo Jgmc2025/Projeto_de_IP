@@ -6,7 +6,7 @@ class Fundo:
         self.screen = ai_game.screen
         self.screen_rect = ai_game.screen.get_rect()
 
-        self.image = pygame.image.load("C:/Users/joaoc/OneDrive/Área de Trabalho/projetoIP/fundo.jpeg")
+        self.image = pygame.image.load("fundo.jpeg")
         self.position = self.image.get_rect()
         self.position.y = self.screen_rect.bottom
         self.image = pygame.transform.scale(self.image, (self.screen_rect.right, self.position.bottom))
