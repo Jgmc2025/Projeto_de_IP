@@ -91,7 +91,7 @@ class Jogo:
             self.ship.mask = pygame.mask.from_surface(self.ship.image)
             self.settings.right = 0
             self.settings.left = 0
-            self.settings.s = 2
+            self.settings.s = 3.5# ALTERACAO AQUI
             self.settings.w = 0
             self.settings.d = 0
             self.settings.a = 0
